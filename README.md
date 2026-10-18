@@ -9,6 +9,7 @@ Minimal reproduction for an Expo Go (iOS) bug.
 3. Tap the `<textarea>` inside the WebView and type `r`: the app reloads (the "JS started at" time changes).
    Type `d`: the dev menu opens.
 4. Type the same letters in the native `TextInput`: nothing happens (expected behavior).
+5. With the **on-screen keyboard** the WebView textarea works fine: only hardware-keyboard key events are affected.
 
 ## Expected
 
